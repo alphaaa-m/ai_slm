@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.python-version
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Backend runtime data
+backend/uploads/
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+alembic.ini.bak
+
+# Node / frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/coverage/
+frontend/.turbo/
+frontend/.vercel/
+*.tsbuildinfo
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker and local services
+postgres-data/
+*.log
